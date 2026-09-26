@@ -1,4 +1,3 @@
-```javascriptreact
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -18,7 +17,7 @@ export default function InfoBox({info})  {
     return (
         <div className="InfoBox">
             <div className="cardContainer">
-             <Card sx={{ maxWidth: 345 }}>
+             <Card sx={{ maxWidth:345 }}>
       <CardMedia
         sx={{ height: 140 }}
         image={info.humidity>80? RAIN_URL:info.temp>15? HOT_URL: COLD_URL}
@@ -35,7 +34,7 @@ export default function InfoBox({info})  {
             <p>Min Temp={info.tempMin}&deg;C</p>
             <p>Max Temp={info.tempMax}&deg;C</p>
             <p>Feels Like={info.feelslike}&deg;C</p>
-            <p>The whether  can be described as <i>{info.whether}</i>  and feels like{info.feelslike}&deg;C</p>
+            <p>The whether  can bedescribed as <i>{info.whether}</i> and feels like{info.feelslike}&deg;C</p>
         
         </Typography>
       </CardContent>
@@ -45,5 +44,4 @@ export default function InfoBox({info})  {
 
         </div>
     );
-} 
-```
+}
