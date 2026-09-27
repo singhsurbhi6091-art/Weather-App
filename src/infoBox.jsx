@@ -30,11 +30,11 @@ export default function InfoBox({info})  {
         <Typography variant="body2" sx={{color: 'text.secondary'}}  component="span">
 
             <p>Tempreature={info.temp}&deg;C</p>
-            <p>Humidity={info.humidity}</p>
+            <p>Humidity={info.humidity}%</p>
             <p>Min Temp={info.tempMin}&deg;C</p>
             <p>Max Temp={info.tempMax}&deg;C</p>
             <p>Feels Like={info.feelslike}&deg;C</p>
-            <p>The whether  can bedescribed as <i>{info.whether}</i> and feels like{info.feelslike}&deg;C</p>
+            <p>The whether  can bedescribed as <i>{info.whether}</i> and feels like {info.feelslike}&deg;C</p>
         
         </Typography>
       </CardContent>
