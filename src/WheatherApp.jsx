@@ -20,7 +20,7 @@ export default function WhetherApp() {
         
     return(
         <div style={{textAlign:"center"}}>
-            <h2>Wheather App by me</h2>
+            <h2>Weather App by me</h2>
             <SearchBox updateWeatherInfo={updateWeatherInfo} />
             <InfoBox info={weatherInfo} />
         </div>
