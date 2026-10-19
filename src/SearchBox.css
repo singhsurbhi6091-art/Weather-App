@@ -1,5 +1,54 @@
 .SearchBox {
     text-align: center;
-    margin-bottom:25px ;
+    margin-bottom: 25px;
+    width: 100%;
+    box-sizing: border-box;
+}
 
+.SearchBox form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.SearchBox .MuiTextField-root {
+    width: 320px;
+    max-width: 90%;
+}
+
+/* Input box */
+.SearchBox .MuiOutlinedInput-root {
+    background-color: #ffffff !important;
+}
+
+/* Typed text */
+.SearchBox .MuiOutlinedInput-input {
+    color: #000000 !important;
+}
+
+/* Placeholder / label */
+.SearchBox .MuiInputLabel-root {
+    color: #555555 !important;
+}
+
+/* Normal border */
+.SearchBox .MuiOutlinedInput-root fieldset {
+    border-color: #555555 !important;
+    border-width: 1px !important;
+}
+
+/* Hover */
+.SearchBox .MuiOutlinedInput-root:hover fieldset {
+    border-color: #1976d2 !important;
+}
+
+/* When clicked */
+.SearchBox .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: #1976d2 !important;
+    border-width: 2px !important;
+}
+
+.SearchBox button {
+    margin-top: 5px;
 }

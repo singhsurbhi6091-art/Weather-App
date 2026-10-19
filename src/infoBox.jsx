@@ -44,6 +44,7 @@ export default function InfoBox({ info }) {
                             gutterBottom
                             variant="h5"
                             component="div"
+                            sx={{ fontWeight: 'bold' }}
                         >
                             {info.city}
 
